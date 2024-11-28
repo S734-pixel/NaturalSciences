@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.example.org/NaturalSciences"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.example.org/NaturalSciences">
+    <Prefix name="" IRI="urn:absolute:h/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Applications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Astronomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Challenges"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClimateChange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EarthScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalConservation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EthicalIssues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FundingProblems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Healthcare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnologyDevelopment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#facesChallenges"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApplication"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasImpactFactor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AIPrivacyConcerns"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AIResearch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Astronomy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Astrophysics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Biology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BudgetCuts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClimateChange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClimateStudies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EarthScience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnvironmentalConservation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EthicalIssues"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FundingProblems"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GeneTherapy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GlobalWarming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Healthcare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MolecularBiology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OrganicChemistry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Physics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuantumMechanics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reforestation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TechnologyDevelopment"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Astronomy"/>
+        <Class IRI="#NaturalScience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biology"/>
+        <Class IRI="#NaturalScience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemistry"/>
+        <Class IRI="#NaturalScience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClimateChange"/>
+        <Class IRI="#Challenges"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarthScience"/>
+        <Class IRI="#NaturalScience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalConservation"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EthicalIssues"/>
+        <Class IRI="#Challenges"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FundingProblems"/>
+        <Class IRI="#Challenges"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Healthcare"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physics"/>
+        <Class IRI="#NaturalScience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnologyDevelopment"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#facesChallenges"/>
+        <NamedIndividual IRI="#Astrophysics"/>
+        <NamedIndividual IRI="#Astronomy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApplication"/>
+        <NamedIndividual IRI="#Astrophysics"/>
+        <NamedIndividual IRI="#Astronomy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#facesChallenges"/>
+        <NamedIndividual IRI="#ClimateStudies"/>
+        <NamedIndividual IRI="#EarthScience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApplication"/>
+        <NamedIndividual IRI="#ClimateStudies"/>
+        <NamedIndividual IRI="#EarthScience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#facesChallenges"/>
+        <NamedIndividual IRI="#MolecularBiology"/>
+        <NamedIndividual IRI="#Biology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApplication"/>
+        <NamedIndividual IRI="#MolecularBiology"/>
+        <NamedIndividual IRI="#Biology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#facesChallenges"/>
+        <NamedIndividual IRI="#OrganicChemistry"/>
+        <NamedIndividual IRI="#Chemistry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApplication"/>
+        <NamedIndividual IRI="#OrganicChemistry"/>
+        <NamedIndividual IRI="#Chemistry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#facesChallenges"/>
+        <NamedIndividual IRI="#QuantumMechanics"/>
+        <NamedIndividual IRI="#Physics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApplication"/>
+        <NamedIndividual IRI="#QuantumMechanics"/>
+        <NamedIndividual IRI="#Physics"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#AIPrivacyConcerns"/>
+        <Literal>&quot;Concerns about privacy violations due to AI technologies.&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#AIResearch"/>
+        <Literal>&quot;The study and development of artificial intelligence technologies.&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImpactFactor"/>
+        <NamedIndividual IRI="#Astrophysics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#BudgetCuts"/>
+        <Literal>&quot;Reduction in research funding, hindering scientific progress.&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImpactFactor"/>
+        <NamedIndividual IRI="#ClimateStudies"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#GeneTherapy"/>
+        <Literal>&quot;The treatment of disease by modifying genes.&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#GlobalWarming"/>
+        <Literal>&quot;The rise in Earth&apos;s average temperature due to greenhouse gas emissions.&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImpactFactor"/>
+        <NamedIndividual IRI="#MolecularBiology"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImpactFactor"/>
+        <NamedIndividual IRI="#OrganicChemistry"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImpactFactor"/>
+        <NamedIndividual IRI="#QuantumMechanics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#Reforestation"/>
+        <Literal>&quot;The process of replanting forests to combat deforestation.&quot;</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#facesChallenges"/>
+        <Class IRI="#NaturalScience"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasApplication"/>
+        <Class IRI="#NaturalScience"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#facesChallenges"/>
+        <Class IRI="#Challenges"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasApplication"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDescription"/>
+        <Class IRI="#NaturalScience"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasImpactFactor"/>
+        <Class IRI="#NaturalScience"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasImpactFactor"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
